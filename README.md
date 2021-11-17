@@ -8,3 +8,13 @@ Due to the inconvenient of adjustment the MRM output boundary artificially, we d
 ![adjustmentDemo_01](./images/reBoundary_02.gif)
 ![adjustmentDemo_01](./images/reBoundary_03.gif)
 ![adjustmentDemo_01](./images/reBoundary_04.gif)
+
+## Explanation of Algorithm
+
+We assume that MRM's peak intensity observes normal distribution. After "fast fourier transform (fft)", we expect to find tip-shape results that the first peak in frequence doamin will be hight. We randomly move the boundary left or right and caculate the proportison of first peak in frequence domain. Our goal is find the boundary that make this feature high as much as possible.
+
+## Contributions
+  
+- provide a principle to adjust boundary
+- time-saving
+- resolve the systematic error by operators
