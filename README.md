@@ -1,6 +1,6 @@
 # automatic adjustment of MRM output boundary
 
-Due to the inconvenient of adjustment the MRM output boundary artificially, we developed an automatic method to deal this task. With manual adjustment, there is no golden standard to set the boundary in certain places. The results will be varied depending on operators. As a result, we used frequency analysis (fft) of signals to find specific features for tuning peak boundary of MRM output data.
+Due to the inconvenient of adjusting of MRM output boundary artificially, we developed an automatic method to deal this task. With manual adjustment, there is no golden standard to set the boundary in certain places. The results will be varied depending on operators. As a result, we used frequency analysis (fft) of signals to find specific features for tuning peak boundary of MRM output data.
 
 ## Demo
 
